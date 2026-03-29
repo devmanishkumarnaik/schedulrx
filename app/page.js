@@ -126,6 +126,10 @@ export default async function HomePage() {
       <footer className="py-6 px-4 text-center text-navy-600 text-xs sm:text-sm"
         style={{ borderTop:'1px solid rgba(82,113,195,0.1)' }}>
         © {new Date().getFullYear()} SchedulrX — Built with Next.js & MongoDB
+        <span className="mx-2">·</span>
+        <Link href="/privacy" className="hover:text-navy-400 transition-colors">Privacy Policy</Link>
+        <span className="mx-2">·</span>
+        <Link href="/terms" className="hover:text-navy-400 transition-colors">Terms of Service</Link>
       </footer>
     </div>
   );
